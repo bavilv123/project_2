@@ -1,0 +1,218 @@
+.header-logo{
+    padding-top: 25px;
+}
+.header-logo img {
+    width: 48px;
+    height: auto;
+    margin-right: 10px;
+}
+.header-logo span{
+    font-size:25.6px;
+    font-weight: 600;
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+    padding:  0;
+    margin: 0;
+    justify-content: space-between;
+    height: 100px;
+    text-align: center;
+}
+.header-menu ul  li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17.6px;
+    font-weight: 500;
+    display: inline-flex;
+    padding-top: 30px;
+}
+.header-menu ul  li:hover{
+    background-color: #fff;
+}
+.header-menu ul  li{
+    width: 25%;
+}
+.header-social ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        font-size: 35px;
+        justify-content: space-around;
+        margin-top: 20px;
+}
+.header-social ul li{
+    width: 45px;
+    height: auto;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    
+  
+}
+.header-social ul li  i{
+    color: black;
+}
+/* End header */
+/* Section-one */
+.section-one img{
+    width: 100%;
+    height: auto;
+    filter:brightness(50%);
+}
+
+.section-one .container{
+    position: absolute;
+    top: 120px;
+
+}
+.section-one .inner-wrap {
+    margin: 0 80px;
+}
+.section-one .inner-wrap .inner-left h2{
+    color: white;
+    font-size: 60px;
+}
+.section-one .inner-wrap .inner-left h3{
+    font-size: 17.3px;
+    color: white;
+}
+.section-one .inner-wrap .inner-left p{
+    color: var(--three);
+    font-size:16px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.button-1:hover{
+    background-color: white;
+}
+.button-2{
+    background-color: black;
+    color: white;
+}
+.button-2:hover{
+    background-color:  #f7d9c4;
+    color: black;
+
+}
+.section-one .inner-wrap .inner-item{
+    display: flex;
+}
+/* End section-one */
+/* Section-two */
+.section-two .inner-left img{
+    height: auto;
+    width: 80%;
+    border-radius: 30px;
+    padding: 50px 0;
+}
+.section-two .container{
+    height: 80%;
+    width: 100%;
+}
+.section-two .inner-right h3 {
+    font-size: 17.6px;
+    color: #777777;
+    padding: 50px 0;
+}
+.section-two .inner-right h2{
+    font-size: 60.8px;
+    margin-top: -47px;
+}
+.section-two .inner-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+.section-two .inner-content .item-1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px; 
+    background-color: white; 
+    border-radius: 15px;
+}
+.section-two .item-1 i{
+    font-size: 45px;
+    color: #ff8484;
+}
+.section-two .item-1 p{
+    font-size:16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.section-two .des{
+    color:#777777;
+    font-size: 18px;
+    margin: 30px 0;
+}
+/* End section-two */
+/* Section-three */
+.section-three{
+    
+    background-color:var(--two);
+    display: flex;
+}
+.section-three .des{
+    position: relative;
+    margin: 30px auto;
+    background-color: white;
+    padding-top: 30px;
+    height:   300px;
+    padding: 30px;
+    width: 80%;
+    border-radius: 40px;
+    
+    
+}
+.section-three .photo{
+    width: 30%;
+
+}
+
+.section-three .des p{
+    color: var(--three);
+}
+.section-three .des h3{
+    font-size: 60px;
+    font-weight: 600;
+}
+/* End section-three */
+/* Section-four */
+    .section-four  .content-1 i{
+        font-size: 15px;
+        padding: 15px 15px;
+        border-radius: 50%;
+        background-color: #EFEFEF;
+    }
+    .section-four  .content-1{
+        color: #777777
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+/* End section four */
+/* Section-five */
+    .section-five h2{
+        font-size: 60px;
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+    .section-five .box img{
+        width: 100%;
+        
+       
+    }
+    .section-five .des p{
+        color: var(--three);
+        font-size: 17px;
+    }
+    .section-five .box{
+       width: 30%;
+       background-color: #fff;
+       height: auto;
+       border-radius: 15px;
+       object-fit: cover;
+    }
+/* End section-five */
